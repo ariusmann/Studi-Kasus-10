@@ -16,7 +16,7 @@ class mhs{
 
 void mhs::input(){
 	mhs *baru;
-	cout << "DATA MAHASISWA BABAK FINAL LOMBA PARMATIKA" << endl;
+	cout << "DATA MAHASISWA BABAK FINAL LOMBA PARMATIKA"<< endl;
 	//input
 	do{
 		baru = new mhs;
