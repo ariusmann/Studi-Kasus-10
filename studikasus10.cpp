@@ -40,7 +40,7 @@ void mhs::output(){
 	mhs *cetak = kepala;
 	int i = 1;
 	while (cetak != NULL){
-		cout << i << ".  " << cetak->nama << "     " << cetak->nim << endl;
+		cout << i << ".  "<< cetak->nama << "     " << cetak->nim << endl;
 		i++;
 		cetak = cetak->berikut;
 	}
